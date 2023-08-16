@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.home -> replaceFragment(HomeFragment())
                 R.id.profile -> replaceFragment(ProfileFragment())
+                R.id.add -> replaceFragment(AddFragment())
+                R.id.skill -> replaceFragment(SkillFragment())
                 R.id.chat -> replaceFragment(ChatFragment())
 
                 else -> {

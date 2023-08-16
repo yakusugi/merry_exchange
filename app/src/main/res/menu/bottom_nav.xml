@@ -9,8 +9,17 @@
         android:id="@+id/profile"
         android:icon="@drawable/profile"
         />
+    <item android:title="add"
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        />
+    <item android:title="skill"
+        android:id="@+id/skill"
+        android:icon="@drawable/skill"
+        />
     <item android:title="chats"
         android:id="@+id/chat"
         android:icon="@drawable/chat"
         />
+
 </menu>
